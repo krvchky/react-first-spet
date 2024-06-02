@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul, li {
+  list-style: none;
+ 
+}
+a {
+  text-decoration: none;
+  color: rgb(10, 10, 62);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(241, 209, 214);
+  height: 40px;
+
+}
+nav{
+  height: 100%;
+}
+.footer{ 
+  color: rgb(125, 107, 127);
+  padding: 10px;
+ 
+}
+.page-home { 
+  color: rgb(125, 107, 127);
+  padding: 10px;
+ 
+}
+.blogs {
+  color: rgb(125, 107, 127);
+  padding: 10px;
+}
+.contact {
+  color: rgb(125, 107, 127);
+  padding: 10px;
+}
+.about {
+  color: rgb(125, 107, 127);
+  padding: 10px;
+}
+.nopage {
+  color: rgb(67, 36, 138);
+  padding: 10px;
+}
+p {
+  font-family: "Myriad Pro", "sans-serif";
+                font-size: 20px;
+                color: #9c388c;
+                text-align: center;
+
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+button{
+  margin-left: 10px;
+}
+
+.categories {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
